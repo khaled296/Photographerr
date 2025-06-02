@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Attef - Photographer</title>
+    <!-- Bootstrap 4 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts (Cairo) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Lightbox CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Cairo", sans-serif;
+        background-color: #f8f9fa;
+      }
+      .navbar {
+        background-color: #222020;
+      }
+      .navbar-brand,
+      .nav-link {
+        color: #fff !important;
+      }
+      .nav-link:hover {
+        color: #f1c40f !important;
+      }
+      .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url("images/d48af412cb2eb59d7faa1f6c81f5e378.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+      }
+      .section-title {
+        color: #1a1a1a;
+        margin-bottom: 40px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .gallery-img {
+        transition: transform 0.3s;
+        border-radius: 10px;
+      }
+      .gallery-img:hover {
+        transform: scale(1.05);
+      }
+      .home-gallery {
+        background-color: #fff;
+        padding: 60px 0;
+      }
+      .contact-section {
+        background-color: #1a1a1a;
+        color: white;
+        padding: 60px 0;
+      }
+      .contact-section a {
+        color: #f1c40f;
+        text-decoration: none;
+      }
+      .contact-section a:hover {
+        text-decoration: underline;
+      }
+      .footer {
+        background-color: #000;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      .footer a {
+        color: #f1c40f;
+        margin: 0 10px;
+        font-size: 24px;
+      }
+      .footer a:hover {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">Mohamed Attef</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#adults">Adults Fashion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kids">Kids Fashion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stories">Human Stories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#fantasy">Fantasy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#media">Media Coverage</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero" data-aos="fade-up">
+      <div>
+        <p>Welcome to my Photography Portfolio!</p>
+        <h3>Professional Photographer with Over 10 Years of Experience</h3>
+        <a href="#contact" class="btn btn-warning btn-lg mt-3">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- Home Gallery -->
+    <section class="home-gallery">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Selected Works</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <a
+              href="https://via.placeholder.com/600x400"
+              data-lightbox="home-gallery"
+              data-title="Selected Work 1"
+            >
+              <img
+                src="images/20250120_191649.jpg"
+                class="img-fluid gallery-img"
+                alt="Selected Work 1"
+              />
+            </a>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <a
+              href="https://via.placeholder.com/600x400"
+              data-lightbox="home-gallery"
+              data-title="Selected Work 2"
+            >
+              <img
+                src="images/SAVE_20250120_191059.jpg"
+                class="img-fluid gallery-img"
+                alt="Selected Work 2"
+              />
+            </a>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <a
+              href="https://via.placeholder.com/600x400"
+              data-lightbox="home-gallery"
+              data-title="Selected Work 3"
+            >
+              <img
+                src="images/SAVE_20250120_191107.jpg"
+                class="img-fluid gallery-img"
+                alt="Selected Work 3"
+              />
+            </a>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <a
+              href="https://via.placeholder.com/600x400"
+              data-lightbox="home-gallery"
+              data-title="Selected Work 4"
+            >
+              <img
+                src="images/SAVE_20250120_191111.jpg"
+                class="img-fluid gallery-img"
+                alt="Selected Work 4"
+              />
+            </a>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <a
+              href="https://via.placeholder.com/600x400"
+              data-lightbox="home-gallery"
+              data-title="Selected Work 5"
+            >
+              <img
+                src="images/SAVE_20250122_013038.jpg"
+                class="img-fluid gallery-img"
+                alt="Selected Work 5"
+              />
+            </a>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <a
+              href="https://via.placeholder.com/600x400"
+              data-lightbox="home-gallery"
+              data-title="Selected Work 6"
+            >
+              <img
+                src="images/SAVE_20250122_013119.jpg"
+                class="img-fluid gallery-img"
+                alt="Selected Work 6"
+              />
+            </a>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <a
+              href="https://via.placeholder.com/600x400"
+              data-lightbox="home-gallery"
+              data-title="Selected Work 7"
+            >
+              <img
+                src="images/SAVE_20250122_013125.jpg"
+                class="img-fluid gallery-img"
+                alt="Selected Work 7"
+              />
+            </a>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <a
+              href="https://via.placeholder.com/600x400"
+              data-lightbox="home-gallery"
+              data-title="Selected Work 8"
+            >
+              <img
+                src="images/SAVE_20250122_013129.jpg"
+                class="img-fluid gallery-img"
+                alt="Selected Work 8"
+              />
+            </a>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <a
+              href="https://via.placeholder.com/600x400"
+              data-lightbox="home-gallery"
+              data-title="Selected Work 9"
+            >
+              <img
+                src="images/SAVE_20250122_013140.jpg"
+                class="img-fluid gallery-img"
+                alt="Selected Work 9"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Contact Us</h2>
+        <div class="row">
+          <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <h4>Contact Information</h4>
+            <p>
+              <i class="fas fa-phone"></i>
+              <a href="tel:01005475678">01005475678</a>
+            </p>
+            <p>
+              <i class="fab fa-instagram"></i>
+              <a
+                href="https://instagram.com/mohamed_attef_photographer"
+                target="_blank"
+                >mohamed_attef_photographer</a
+              >
+            </p>
+            <p>
+              <i class="fab fa-facebook"></i>
+              <a
+                href="https://facebook.com/mohamedattefphotography"
+                target="_blank"
+                >mohamed attef photography</a
+              >
+            </p>
+          </div>
+          <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <h4>Send a Message</h4>
+            <form>
+              <div class="form-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><br><br><br><br><br>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>2025 Mohamed Attef. All rights reserved.</p>
+        <div>
+          <a href="https://facebook.com/mohamedattefphotography" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://instagram.com/mohamed_attef_photographer"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://wa.me/01005475678" target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Bootstrap 4 JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  </body>
+</html>
